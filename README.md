@@ -1,5 +1,5 @@
 # Unsupervised Visual Representation Learning via Dual-level Progressive Similar Instance Selection (DPSIS)
-![](https://github.com/hehefan/DPSIS/blob/master/imgs/framework.jpg)
+![](https://github.com/hehefan/DPSIS/blob/main/imgs/framework.png)
 
 
 ## Data
