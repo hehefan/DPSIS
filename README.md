@@ -1,4 +1,6 @@
 # Unsupervised Visual Representation Learning via Dual-level Progressive Similar Instance Selection (DPSIS)
+![](https://github.com/hehefan/DPSIS/blob/master/imgs/framework.jpg)
+
 
 ## Data
 data/cifar10: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
@@ -19,7 +21,13 @@ data/ILSVRC2012: http://image-net.org/download-images
 data/Places365: http://places2.csail.mit.edu/download.html
 
 ## Usage
+### CIFAR10
 ```
-python cifar.py --threshold-1=0.9 --threshold-2=0.6
+python cifar.py -b 128--threshold-1=0.9 --threshold-2=0.6
+```
+
+### ImageNet
+```
+python imagenet.py data/ILSVRC2012 -b 256 --threshold-1=0.9 --threshold-2=0.6
 ```
 
