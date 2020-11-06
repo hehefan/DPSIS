@@ -1,11 +1,18 @@
 # Unsupervised Visual Representation Learning via Dual-level Progressive Similar Instance Selection (DPSIS)
 ![](https://github.com/hehefan/DPSIS/blob/master/imgs/framework.jpg)
 
+## Setup
+All our code is implemented in PyTorch. Installation instructions are as follows:
+```
+pip install torch 
+pip install torchvision
+```
 
 ## Data
 data/cifar10: https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
 
 data/cifar100: https://www.cs.toronto.edu/~kriz/cifar-100-python.tar.gz
+Note that cifar10 and cifar100 can be automatically downloaded and extracted when first running the codes.
 
 data/svhn: http://ufldl.stanford.edu/housenumbers/train_32x32.mat, 
            http://ufldl.stanford.edu/housenumbers/test_32x32.mat
@@ -20,7 +27,7 @@ data/ILSVRC2012: http://image-net.org/download-images
 
 data/Places365: http://places2.csail.mit.edu/download.html
 
-## Usage
+## Usage Example
 ### CIFAR10
 ```
 python cifar.py -b 128--threshold-1=0.9 --threshold-2=0.6
