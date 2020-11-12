@@ -28,11 +28,11 @@ data/Places365: http://places2.csail.mit.edu/download.html
 ## Usage Example
 ### CIFAR10
 ```
-python cifar.py -b 128--threshold-1=0.9 --threshold-2=0.6
+python cifar.py -b 128 --threshold-1 0.9 --threshold-2 0.6
 ```
 
 ### ImageNet
 ```
-python imagenet.py data/ILSVRC2012 -b 256 --threshold-1=0.9 --threshold-2=0.6
+python imagenet.py data/ILSVRC2012 -b 256 --threshold-1 0.9 --threshold-2 0.6
 ```
 
